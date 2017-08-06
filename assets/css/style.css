@@ -3,240 +3,240 @@ Using flex box example from https://css-tricks.com/couple-takes-sticky-footer/
 */
 
 html, body {
-    height: 100%;
+	height: 100%;
 }
 
 body {
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 15px;
-    text-align: center;
-    background: #eee url("../images/geometry2.png") repeat fixed;
-    color: #777;
-    display: flex;
-    flex-direction: column;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+	background: #eee url("../images/geometry2.png") repeat fixed;
+	color: #777;
+	display: flex;
+	flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: #4aaaa5; /* Teal */
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	color: #4aaaa5; /* Teal */
 }
 
 .wrapper {
-    margin: 0 auto;
-    width: 960px;
-    text-align: left;
-    clear: both;
-    overflow: auto;
+	margin: 0 auto;
+	width: 960px;
+	text-align: left;
+	clear: both;
+	overflow: auto;
 }
 
 .clear { clear: both; }
 
 header {
-    border-bottom: 2px solid #ccc;
-    background: #fff;
+	border-bottom: 2px solid #ccc;
+	background: #fff;
 }
 
 h1 {
-    background-color: #4aaaa5; /* Teal */
-    font-weight: bold;
-    float: left;
-    display: inline-block;
+	background-color: #4aaaa5; /* Teal */
+	font-weight: bold;
+	float: left;
+	display: inline-block;
 }
 
 header h1 a,
 header h1 a:visited,
 header h1 a:hover,
 header h1 a:active {
-    color: #fff;
-    text-decoration: none;
-    padding: 1em;
-    font-size: 2em;
-    display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 1em;
+	font-size: 2em;
+	display: inline-block;
 }
 
 header * span {
-    font-size: 1.2em;
-    padding: 0 0.75em;
-    float: right;
-    border-right: 1px solid #ddd;
-    margin: 2em auto;
-    bottom: 0;
+	font-size: 1.2em;
+	padding: 0 0.75em;
+	float: right;
+	border-right: 1px solid #ddd;
+	margin: 2em auto;
+	bottom: 0;
 }
 
 header * span:first-of-type {
-    padding-right: 0;
-    border-right: 0;
+	padding-right: 0;
+	border-right: 0;
 }
 
 header * span a,
 header * span a:visited,
 header * span a:hover,
 header * span a:active {
-    text-decoration: none;
-    color: #999;
+	text-decoration: none;
+	color: #999;
 }
 
 header * span a:hover,
 header * span a:active {
-    border-bottom: 1px solid #777;
+	border-bottom: 1px solid #777;
 }
 
 #content {
-    flex: 1 0 auto; /* For sticky footer */
+	flex: 1 0 auto; /* For sticky footer */
 }
 
 #content section,
 #content aside {
-    background: #fff;
-    border: 1px solid #ddd;
+	background: #fff;
+	border: 1px solid #ddd;
 }
 
 #content section {
-    width: 650px;
-    float: left;
-    margin-top: 2.5em;
-    padding-bottom: 2.16em;
+	width: 650px;
+	float: left;
+	margin-top: 2.5em;
+	padding-bottom: 2.16em;
 }
 
 #content section h2 {
-    font-size: 1.8em;
-    font-weight: bold;
-    padding: 1.5em 0;
-    margin: 0 1.2em;
-    border-bottom: 3px solid #ddd;
+	font-size: 1.8em;
+	font-weight: bold;
+	padding: 1.5em 0;
+	margin: 0 1.2em;
+	border-bottom: 3px solid #ddd;
 }
 
 #content section p {
-    font-size: 1.2em;
-    line-height: 1.2;
-    margin: 1.8em 1.8em 0;
+	font-size: 1.2em;
+	line-height: 1.2;
+	margin: 1.8em 1.8em 0;
 }
 
 #content section p img {
-    float: left;
-    margin: 0 1em 1em 0;
+	float: left;
+	margin: 0 1em 1em 0;
 }
 
 #contact-form {
-    margin: 1.8em 2.16em 0;
+	margin: 1.8em 2.16em 0;
 }
 
 #contact-form span,
 #contact-form button {
-    font-size: 1.2em;
+	font-size: 1.2em;
 }
 
 #contact-form input,
 #contact-form textarea {
-    border: 1px solid #ddd;
+	border: 1px solid #ddd;
 }
 
 #contact-form span {
-    display: block;
-    margin-bottom: 0.5em;
+	display: block;
+	margin-bottom: 0.5em;
 }
 
 #contact-form input {
-    margin-bottom: 1.5em;
-    width: 568px;
-    padding: 0.5em;
-    font-size: 1em;
+	margin-bottom: 1.5em;
+	width: 568px;
+	padding: 0.5em;
+	font-size: 1em;
 }
 
 #contact-form textarea {
-    width: 579px;
-    min-height: 20em;
+	width: 579px;
+	min-height: 20em;
 }
 
 #contact-form button {
-    background: #4aaaa5; /* Teal */
-    border: 0;
-    color: #fff;
-    padding: 0.5em 1.5em;
-    margin-top: 1em;
+	background: #4aaaa5; /* Teal */
+	border: 0;
+	color: #fff;
+	padding: 0.5em 1.5em;
+	margin-top: 1em;
 }
 
 #portfolio-projects li {
-    width: 276px;
-    height: 210px;
-    float: left;
-    display: inline-block;
-    margin: 1.8em 0 0 2.16em;
-    position: relative;
+	width: 276px;
+	height: 210px;
+	float: left;
+	display: inline-block;
+	margin: 1.8em 0 0 2.16em;
+	position: relative;
 }
 
 #portfolio-projects li a {
-    width: 100%;
-    height: 100%;
-    display: block;
-    text-decoration: none;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
 }
 
 #portfolio-projects li a,
 #portfolio-projects li a:visited,
 #portfolio-projects li a:hover,
 #portfolio-projects li a:active {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 1.2em;
-    color: white;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 1.2em;
+	color: white;
 }
 
 #portfolio-projects li a span {
-    text-align: center;
-    position: absolute;
-    display: block;
-    bottom: 10px;
-    width: 100%;
-    padding: 1em 0;
-    background: #4aaaa5; /* Teal */
-    background: rgba(74, 170, 165, 0.9)
+	text-align: center;
+	position: absolute;
+	display: block;
+	bottom: 10px;
+	width: 100%;
+	padding: 1em 0;
+	background: #4aaaa5; /* Teal */
+	background: rgba(74, 170, 165, 0.9)
 }
 
 #portfolio-projects li a:hover span {
-    background: #4aaaa5; /* Teal */
-    background: rgba(74, 170, 165, 1)
+	background: #4aaaa5; /* Teal */
+	background: rgba(74, 170, 165, 1)
 }
 
 #content aside {
-    width: 270px;
-    float: right;
-    text-align: center;
-    margin-top: 2.5em;
+	width: 270px;
+	float: right;
+	text-align: center;
+	margin-top: 2.5em;
 }
 
 #content aside h3 {
-    font-size: 1.4em;
-    font-weight: bold;
-    padding: 1.2em 0;
-    margin: 0 1.5em;
-    border-bottom: 2px solid #ddd;
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 1.2em 0;
+	margin: 0 1.5em;
+	border-bottom: 2px solid #ddd;
 }
 
 #content aside a,
 #content aside a:visited,
 #content aside a:hover,
 #content aside a:active {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 #content aside img {
-    margin: 2em 0.25em;
+	margin: 2em 0.25em;
 }
 
 footer {
-    background-color: #666;
-    border-top: 8px solid #4aaaa5; /* Teal */
-    margin-top: 2.5em;
-    padding: 2.5em 0;
-    text-align: center;
+	background-color: #666;
+	border-top: 8px solid #4aaaa5; /* Teal */
+	margin-top: 2.5em;
+	padding: 2.5em 0;
+	text-align: center;
 }
 
 footer small {
-    font-size: 0.8em;
-    color: #ddd;
+	font-size: 0.8em;
+	color: #ddd;
 }
 
 footer small a,
 footer small a:visited {
-    color: #ddd;
+	color: #ddd;
 }
