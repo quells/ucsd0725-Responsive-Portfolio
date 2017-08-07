@@ -115,6 +115,8 @@ header * span a:active {
 #content section p img {
 	float: left;
 	margin: 0 18px 18px 0;
+	width: 150px;
+	height: 150px;
 }
 
 #contact-form {
@@ -243,6 +245,36 @@ footer small a:visited {
 
 @media screen and (max-width: 980px) {
 	body { background: red; }
+	.wrapper {
+		width: 650px;
+	}
+
+	#content section {
+		width: 340px;
+	}
+
+	#content section p img {
+		width: 276px;
+		height: 276px;
+		margin: 0 0 24px;
+	}
+
+	#portfolio-projects {
+		text-align: center;
+	}
+
+	#portfolio-projects li {
+		float: none;
+		margin: 24px auto 0;
+	}
+
+	#contact-form input {
+		width: 258px;
+	}
+
+	#contact-form textarea {
+		width: 269px;
+	}
 }
 
 @media screen and (max-width: 768px) {
