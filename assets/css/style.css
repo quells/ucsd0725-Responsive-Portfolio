@@ -240,3 +240,15 @@ footer small a,
 footer small a:visited {
 	color: #ddd;
 }
+
+@media screen and (max-width: 980px) {
+	body { background: red; }
+}
+
+@media screen and (max-width: 768px) {
+	body { background: green; }
+}
+
+@media screen and (max-width: 640px) {
+	body { background: blue; }
+}
