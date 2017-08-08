@@ -301,4 +301,51 @@ footer small a:visited {
 
 @media screen and (max-width: 640px) {
 	body { background: blue; }
+
+	.wrapper {
+		width: 100%;
+		margin: 0;
+	}
+
+	header h1 {
+		text-align: center;
+		width: 100%;
+		display: block;
+		float: none;
+	}
+
+	header * span {
+		width: 33%;
+		margin: 18px 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	#content section,
+	#content aside {
+		width: calc(100% - 48px);
+		margin: 24px 24px 0;
+	}
+
+	#content section p img {
+		width: 300px;
+		height: 300px;
+		margin: 0 calc(100% - 300px) 18px 0;
+	}
+
+	#content aside {
+		text-align: center;
+	}
+
+	#content aside a {
+		margin: auto 18px;
+	}
+
+	#content aside a:first-of-type {
+		margin-left: auto;
+	}
+
+	footer {
+		margin-top: 24px;
+	}
 }
