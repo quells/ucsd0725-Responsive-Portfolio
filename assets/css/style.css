@@ -256,7 +256,7 @@ footer small a:visited {
 	#content section p img {
 		width: 300px;
 		height: 300px;
-		margin: 0 36px 24px 0;
+		margin: 0 calc(100% - 300px) 24px 0;
 	}
 
 	#portfolio-projects {
