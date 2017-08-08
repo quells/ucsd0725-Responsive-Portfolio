@@ -350,3 +350,24 @@ footer small a:visited {
 		margin-top: 24px;
 	}
 }
+
+
+@media screen and (max-width: 420px) {
+	#content section p img {
+		max-width: 100%;
+		width: auto;
+		height: auto;
+		margin: 0 0 18px 0;
+	}
+
+	#content aside a {
+		margin: auto 0;
+	}
+
+	#portfolio-projects li,
+	#portfolio-projects * img {
+		max-width: 100%;
+		width: auto;
+		height: auto;
+	}
+}
