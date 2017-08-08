@@ -140,13 +140,13 @@ header * span a:active {
 
 #contact-form input {
 	margin-bottom: 22px;
-	width: 568px;
+	width: calc(100% - 18px);
 	padding: 8px;
 	font-size: 15px;
 }
 
 #contact-form textarea {
-	width: 579px;
+	width: calc(100% - 6px);
 	min-height: 220px;
 }
 
