@@ -267,18 +267,36 @@ footer small a:visited {
 		float: none;
 		margin: 24px auto 0;
 	}
-
-	#contact-form input {
-		width: 258px;
-	}
-
-	#contact-form textarea {
-		width: 269px;
-	}
 }
 
 @media screen and (max-width: 768px) {
 	body { background: green; }
+
+	.wrapper {
+		width: auto;
+		margin: 0 38px;
+		overflow:inherit;
+	}
+
+	#content section,
+	#content aside {
+		float: none;
+		width: 100%;
+	}
+
+	#content section p img {
+		width: 200px;
+		height: 200px;
+		margin: 0 24px 18px 0;
+	}
+
+	#content aside {
+		text-align: left;
+	}
+
+	#content aside a:first-of-type {
+		margin-left: 32px;
+	}
 }
 
 @media screen and (max-width: 640px) {
